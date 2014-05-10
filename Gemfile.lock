@@ -14,6 +14,7 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.4)
       sass (>= 3.2, < 3.5)
+    execjs (2.0.2)
     ffi (1.9.3)
     json (1.8.1)
     listen (1.1.6)
@@ -41,5 +42,6 @@ PLATFORMS
 
 DEPENDENCIES
   compass (= 1.0.0.alpha.19)
+  execjs
   sass (= 3.3.7)
   sinatra (= 1.4.5)
