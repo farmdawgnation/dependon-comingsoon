@@ -15,18 +15,21 @@ header {
   height: 468px;
   padding-top: 69px;
   @include box-sizing(border-box);
-}
 
-@media all and (min-width: 1000px) {
-  header {
+  background: url('/images/header-background-400.png');
+
+  @media all and (min-width: 1000px) {
     background: url('/images/header-background-1500.png');
     @include background-size($default-background-size);
   }
-}
 
-@media all and (max-width: 1000px) {
-  header {
+  @media all and (min-width: 640px) and (max-width: 1000px) {
     background: url('/images/header-background-1000.png');
+    background-position: 50%;
+  }
+
+  @media all and (min-width: 320px) and (max-width: 640px) {
+    background: url('/images/header-background-640.png');
     background-position: 50%;
   }
 }
