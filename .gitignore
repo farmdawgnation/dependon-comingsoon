@@ -36,3 +36,5 @@ build/
 .sass-cache
 public/stylesheets/*.css
 public/bower_components/*
+
+public/javascripts/*.js
